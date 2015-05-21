@@ -2,62 +2,11 @@
  *
  * lpinto.eu
  *
- * css control of the page content, not page theme definition.
+ * css theme definition.
  *
  ******************************************************************************/
 
 
-
-/*******************************************************************************
- *
- * CONTENT
- *
- ******************************************************************************/
-
-/* Path
- ******************************************************************************/
-.path-img {
-    width: 250px;
-    height: 250px;
-}
-
-/* Path
- ******************************************************************************/
-.path-img-wrapper {
-    text-align: center;
-}
-
-
-/* Projects
- ******************************************************************************/
-.project-img-wrapper {
-    text-align: center;
-}
-
-#projects-timeline ul.intervals li {
-    width: 20%;
-}
-
-#projects-section img {
-    width: 120px;
-    height: 120px;
-    float:none;
-    display:inline-block;
-    vertical-align:middle;
-}
-
-
-/* Skills
- ******************************************************************************/
-#prog-skills-timeline ul.intervals li {
-    width: 10%;
-}
-
-/* Footer
- ******************************************************************************/
-#footer  {
-    margin-bottom: 0;
-}
 
 /*******************************************************************************
  *
@@ -65,7 +14,31 @@
  *
  ******************************************************************************/
 body {
+    font-size: 14px;
+    text-align: justify;
     margin-top: 50px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+}
+
+.anchor {
+    position: relative;
+    top:00px;
+}
+
+
+
+/*******************************************************************************
+ *
+ * BOOTSRAP
+ *
+ ******************************************************************************/
+.jumbotron {
+    margin: 0;
+    background-color: transparent;
 }
 
 
@@ -104,6 +77,13 @@ body {
     font-size: 0.9em;
 }
 
+@media (max-width: 768px) {
+    /* >= sm */
+    .lp-timeline ul.intervals li {
+        font-size: 12px;
+    }
+}
+
 .lp-timeline ul.intervals li {
     border-right: 1px solid #ccc;
     color: #444;
@@ -115,4 +95,284 @@ body {
 
 .lp-timeline ul.intervals li.first {
     border-left: 1px solid #ccc;
+}
+
+
+
+/*******************************************************************************
+ *
+ * CONTENT
+ *
+ ******************************************************************************/
+.page-section {
+    padding: 55px 0px;
+}
+
+.lp-timeline {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+/* Wellcome
+ ******************************************************************************/
+#welcome-section  {
+    background: #36424D;
+    color: #FFFFFF;
+}
+
+#welcome-section .btn-primary {
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    min-width: 100px;
+    background: transparent;
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    padding: 7px 15px;
+}
+
+/* Qoute
+ ******************************************************************************/
+#quote-section {
+    background: #4C5F70;
+    color: #CCC;
+}
+
+#quote-section {
+    padding: 10px 0;
+}
+
+@media (min-width: 768px) {
+    /* >= sm */
+    #quote-section {
+        padding: 30px 0;
+    }
+}
+
+#quote-section i {
+    opacity: 0.5;
+    font-size: 0.7em;
+}
+
+/* About
+ ******************************************************************************/
+#about-section {
+    background: #EB7260;
+    color: #FFFFFF;
+}
+
+/* Path
+ ******************************************************************************/
+#path-section {
+    background: #E6E6E6;
+    color: #666;
+}
+
+.path-img {
+    margin-top: 50px;
+    border: 3px solid;
+}
+
+#quote-section {
+    padding: 10px 0;
+}
+
+.path-img-wrapper {
+    text-align: center;
+
+}
+
+.path-img {
+    width: 200px;
+    height: 200px;
+}
+
+@media (min-width: 992px) {
+        /* >= md */
+        .path-img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+#path-section h1, #path-section h2 {
+    color: #000;
+}
+
+/* Some
+ ******************************************************************************/
+#some-section {
+    background: #2EA28E;
+    color: #FFFFFF;
+}
+
+#some-section i {
+    opacity: 0.5;
+    font-size: 0.7em;
+}
+
+/* Projects
+ ******************************************************************************/
+#projects-section {
+    background: #E6E6E6;
+    color: #666;
+}
+
+#projects-section h1, #projects-section h2, #projects-section h3 {
+    color: #000;
+}
+
+/* timeline */
+#projects-section .progress-bar {
+    color: #000;
+}
+
+/* features */
+.project-img-wrapper {
+    text-align: center;
+}
+
+#projects-timeline ul.intervals li {
+    width: 20%;
+}
+
+#projects-section img {
+    width: 120px;
+    height: 120px;
+    float:none;
+    display:inline-block;
+    vertical-align:middle;
+}
+
+#projects-section h3 small {
+    font-size: 14px;
+}
+
+@media (min-width: 992px) {
+        /* >= lg */
+    #projects-section h3 small {
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 1200px) {
+        /* >= lg */
+    #projects-section h3 small {
+        font-size: 14px;
+    }
+}
+
+.project-img {
+    border: 3px solid;
+}
+
+.project-li {
+    margin-top: 50px;
+}
+
+.project-ri {
+    margin-bottom: 50px;
+}
+
+.project-separator {
+    margin: 70px 0;
+    border-top: 1px solid #999;
+}
+
+
+/* Skills
+ ******************************************************************************/
+#skills-section {
+    background: #548DB5;
+    color: #FFFFFF;
+}
+
+#prog-skills-timeline ul.intervals li {
+    width: 10%;
+}
+
+#skills-section .progress {
+    background-color: #447DA5;
+}
+
+#skills-section .progress-bar {
+    background-color: #DDD;
+    color: #666;
+    text-align: right;
+}
+
+#coursework {
+    line-height: 1.5;
+}
+
+#skills-section a {
+    color: #FFF;
+    text-decoration: underline;
+}
+
+/* SKILL_LIST
+ ******************************************************************************/
+#some2-section {
+    background: #EB7260;
+    color: #FFFFFF;
+}
+
+#some2-section dt {
+    border-bottom: 1px solid;
+}
+
+#some2-section dd {
+    border-bottom: 1px dotted;
+}
+
+/* Contacts
+ ******************************************************************************/
+#contacts-section {
+    background: #4C5F70;
+    color: #FFFFFF;
+    border: none;
+}
+
+.contact a {
+    background: transparent;
+    color: #FFF;
+}
+
+.contact :hover {
+    color: #FFF;
+}
+
+.contact i {
+    font-size: 35px;
+}
+
+.extLink {
+    background: transparent;
+    border: 3px solid #FFFFFF;
+    border-radius: 50%;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 35px;
+    height: 85px;
+    margin: 25px;
+    position: relative;
+    text-align: center;
+    width: 85px;
+    padding: 15px;
+}
+
+.extLink:hover {
+    background: #FFFFFF;
+    color: #4C5F70;
+}
+
+/* Footer
+ ******************************************************************************/
+#footer  {
+    margin-bottom: 0;
+}
+
+
+
+.no-border {
+    border: none;
 }

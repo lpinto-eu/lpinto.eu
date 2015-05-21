@@ -18,6 +18,10 @@
         <meta name="author" content="Luis Pinto">
         <meta name="keywords" content="Luis Pinto, personal webpage, portfolio, software developer, web developer">
         <meta name="description" content="Hello, my name is Luis Pinto and this is my personal website.">
+        
+        <!-- Scripts
+        ==================================================================== -->
+        <script src="js/bootstrap.min.js"></script>
 
         <!-- CSS
         ==================================================================== -->
@@ -26,7 +30,6 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/theme2.css">
     </head>
 
     <body>
@@ -57,13 +60,14 @@
                             <li>
                                 <a class="nav-icon text-center" href="#projects-section"><i class="fa fa-code fa-fw fa-lg"></i> Projects</a>
                             </li><li>
-                                <a class="nav-icon text-center" href="#skills-section"><i class="fa fa-bar-chart-o fa-fw fa-lg"></i> Skill</a>
+                                <a class="nav-icon text-center" href="#skills"><i class="fa fa-bar-chart-o fa-fw fa-lg"></i> Skill</a>
                             </li>
                             <li>
                                 <a class="nav-icon text-center" href="#contacts-section"><i class="fa fa-phone fa-fw fa-lg"></i> Contacts</a>
                             </li>
                         </ul>
                     </nav>
+                </div>
             </nav>
         </header><!-- header -->
 
@@ -82,7 +86,7 @@
                         <h1>Software Engineer</h1>
                         <h2>Web developer</h2>
                         <p class="lead">
-                            Server-side developer, passionate about interoperability, webservices and Software Architecture.
+                            Server-side developer, passionate about quality code, webservices and Software Architecture.
                         </p>
                         <p>
                             <a class="btn btn-primary" href="mailto:mail@lpinto.eu">
@@ -152,47 +156,60 @@
 
                     <header class="row">
                         <div class="col-xs-12 text-center">
-                            <h1>Path</h1>
+                            <h1>Past, present and future</h1>
                         </div>
                     </header>
 
                     <div class="row">
-                        <article class="col-md-6">
+                        <article class="col-md-4">
                             <div class="path-img-wrapper">
                                 <img src="./img/past.jpg" class="img-circle path-img">
                             </div>
                             <h2>Background</h2>
-                            <p>
-                                Since I join the <a href="http://www.ua.pt/deti/PageCourse.aspx?id=23&b=1&lg=en">Computers and Telematics Engineering</a> course, at <a href="http://www.ua.pt/">Aveiro University</a>, I felt in love with programming and software building. During my time at the university, I took a lot important courses that have proved to be a <strong>solid knowledge foundation</strong>, where I studied all phases of software building, and all layer of a software systems. This was done throw different programming levels using different programming languages.
+                            <h4>Master's Degree</h4>
+                            <p>I recived my MSc. in <a href="http://www.ua.pt/deti/PageCourse.aspx?id=23&b=1&lg=en">Computers and Telematics Engineering</a> by the <a href="http://www.ua.pt/">University of Aveiro</a>. It's a fantastic course that, may times, have proved to be a <strong>solid knowladege foundation</strong> regarding not only programming but software building.
                             </p>
                             <p>
-                                For my Master's Degree thesis, I managed to work in a <strong>industry like environment</strong>, which later proved to be a smart decision. I joined a Health IT team, that was developing a software abstraction layer as a network connecting Hospitals - <a href="http://www.rtsaude.pt/">RTS</a>. I was responsible for the creation of a <strong>SOAP webservices API</strong>, security configurations and semantic services for translation and transcoding.</p>
+                                For my Master's Thesis, I joined an excelent eHalth reserching team, which gave me the opportunity to work in a <strong>industry like environment</strong>. They had developed a software abstraction layer as a network connecting Hospitals - <a href="http://www.rtsaude.pt/">RTS</a> and asked me to created a <strong>SOAP webservices API</strong>, security configurations and semantic services for translation and transcoding.</p>
+                            <h4>First Job</h4>
                             <p>
-                                It proved to be a job well done, and so I was hired by <a href="http://www.iuz.pt">iUZ Technologies</a> to do it all over again. They developed <a href="https://saudeoral.min-saude.pt/siso‎">SISO</a> a Health Business Management System part of the National Program for the Promotion of Oral Health. SISO is a Information system based on web-portals, which connectivity could be widely enlarged by exposing it through a <strong>SOAP webservices API</strong> - this sub-project is called <a href="#">inSISO</a>.
+                                It seems I did it well, and when I was almost fisinhing I was hired by <a href="http://www.iuz.pt">iUZ Technologies</a> to do something similar. They developed an Information system (<a href="https://saudeoral.min-saude.pt/siso‎">SISO</a>) based on web-portals, this leverage widely with a <strong>SOAP webservices API</strong>.
                             </p>
+                            <h4>Internationalization</h4>
                             <p>
-                                After that, as part of iUZ's inter-operability team, I had the amazing opportunity to join a <strong>international team</strong> developing the <a href="https://openncp.atlassian.net/wiki/display/ncp/OpenNCP+Community+Home">openNCP</a> <strong>IHE HL7 webservices API</strong> for the <a href="http://www.epsos.eu">epSOS</a> project. This was a great experience, that allowed me to work in a daily bases with people from all over europe, and most of all it took me to the <a href="http://gazelle.ihe.net/content/ihe-european-connectathon-2012">2012 edition</a> of the <a href="http://www.ihe.net/connectathon/">IHE Connectathon</a> . [<a href="http://spms.min-saude.pt/blog/2012/11/21/epsos-aposta-em-componentes-open-source/">there're pictures (:</a> ].
+                                As part of iUZ's inter-operability team, I had the amazing opportunity to be part of a <strong>international team</strong> developing an <strong>IHE HL7 webservices API</strong> for the <a href="http://www.epsos.eu">epSOS</a> project. This was a great experience, that allowed me to work in a daily bases with people from all over europe, and most of all it took me to the <a href="http://gazelle.ihe.net/content/ihe-european-connectathon-2012">2012 edition</a> of the <a href="http://www.ihe.net/connectathon/">IHE Connectathon</a> - <a href="http://spms.min-saude.pt/blog/2012/11/21/epsos-aposta-em-componentes-open-source/"> there're pictures</a>.
                             </p>
                         </article>
 
-                        <article class="col-md-6">
+                        <article class="col-md-4">
                             <div class="path-img-wrapper">
                                 <img src="./img/present.jpg" class="img-circle path-img">
                             </div>
                             <h2>Current work</h2>
                             <p>
-                                In November of 2012, I searched for a new challenge, and moved to a new company - <a href="http://maisis.pt">Maisis</a>. I then joined a team at <a href="http://www.ptinovacao.pt/">PT Inovação</a> as an outsourcing developer.
+                                Currently I am a Software Engineer at <a href="http://www.ptinovacao.pt/">PT Inovação</a>.
                             </p>
+                            <p>I am part of a team building, from scratch, a system to manage and control people access to buildings (SEGURA). We opted for a API first architecture, based on a Javascript application and a server-side exposed throw a <strong>REST API</strong>. This is being done on top of a in-house developed framwork, based on the principles of <strong>parallelism and asynchronism</strong>. This framwork provides event driven modular architecture builted based on the Akka toolkit and programmed in Scala.</p>
+                            <p>My role have been the development of the business-logic layer and also the persistence layer, this in conjunction with the creation of the webservices API.
+                            </p>
+                            <h4>Front-end adventure</h4>
                             <p>
-                                The challenge was to build a Information System from scratch, using the <strong>latest technologies</strong>. The company had developed a fantastic framwork, to be used as foundation of any system, defining a basic modular architecture for the server-side. The framwork is a state of the art vision of the software, built on the principles of <strong>parallelism and asynchronism</strong>. This was made using Scala as main language, and leveraged already available libraries like Akka.
-                            </p>
-                            <p>
-                                From the architectural point of view, we opted for a API first architecture, which defined the creation of two sub-systems. A server-side system accessible through a <strong>REST API</strong>, and a browser application in JavaScript implementing the presentation layer. As a server-side developer have been my task the development of the business-logic layer and also the persistence layer, this in conjunction with the creation of the webservices API.
-                            </p>
+                                In order to expand my technical knowledge, I started this summer learning some <strong>front-end</strong> specific languages and framworks. As a case study I started a project for Animal Shelters management; now I am thinking about make this Open Source, and host it for free offering it to the Association that could benefit from it.</p>
+                        </article>
 
-                            <p>
-                                Always trying to learn more and being aware of the programming trend, I realised that front-end development and front-end technologies, are becoming a huge deal.
-                                In order to expand my technical knowledge, I started this summer learning some front-end specific languages and framworks. As a case study I started a project for Animal Shelters management; now I am thinking about make this Open Source, and host it for free offering it to the Association that could benefit from it.</p>
+                        <article class="col-md-4">
+                            <div class="path-img-wrapper">
+                                <!-- http://information-technology-topics.blogspot.pt/2011/08/future-computers-year-2050.html -->
+                                <img src="./img/future.jpg" class="img-circle path-img">
+                            </div>
+                            <h2>Next Job</h2>
+                            <p>Everyday I wake up everyday with the expectation of developing exciting software, hoping to find opportunities to learn something new and looking forward for exciting chalenges.</p>
+                            <p>In my next chalange I hope to find new opportunities that can provide me with knowledge, experience and fullfillment. I belive that a motivated worker is a better employer. For me motivation: </p>
+                            <ul>
+                                <li>is to work with great people, with who I can lear;</li>
+                                <li>is to be in a team concerned about quality control, using automation tools to assint on the quality check;</li>
+                                <li>is knowing that I am valued, as member of a company that gives me a career opportunity.</li>
+                            </ul>
                         </article>
                     </div>
 
@@ -253,7 +270,7 @@
                                     <div class="progress-bar" style="width: 27%; margin-left: 56.4%;">Segura</div>
                                 </div>
                                 <div class="progress">
-                                    <div class="progress-bar" style="width: 27%; margin-left: 70%;">Animal4U</div>
+                                    <div class="progress-bar" style="width: 13.4%; margin-left: 70%;">Animal4U</div>
                                 </div>
                             </div>
 
@@ -272,14 +289,15 @@
                             <h2>Projects presence</h2>
                         </header>
 
-                            <article class="project-li">
+                            <article>
                                 <div class="col-sm-5 col-md-2 project-img-wrapper">
                                     <img src="./img/animalshelter.png" class="img-circle project-img">
                                 </div>
                                 <div class="col-sm-7 col-md-4 project-description">
                                     <h3>Animal4U<small> - Shelter managment.</small></h3>
                                     <small>since 10/2013</small>
-                                    <p>An open source solution for Animal Shelter managment. [<a href="https://github.com/lpinto-eu/animal-shelter">code</a>]</p>
+                                    <p>An open source solution for Animal Shelter managment.</p>
+                                    <p>[<a href="https://github.com/lpinto-eu/animal-shelter">code</a>]</p>
                                     <hr/>
                                     <p><small>HTML5 | CSS3 | Bootstrap 3.0 | Ember.js</small></p>
                                     <a class="btn btn-primary" href="http://lpinto.eu/as" target="_blank">
@@ -290,9 +308,10 @@
                             </article>
 
                             <div class="clearfix visible-sm"></div>
-                            <div class="visible-xs"><hr class="project-separator" /></div>
 
-                            <article class="project-ri">
+                            <div><hr class="project-separator visible-xs" /></div>
+
+                            <article>
                                 <div class="col-sm-7 col-md-4 project-description">
                                     <h3>Segura<small> - access control system.</small></h3>
                                     <small>since 11/2012</small>
@@ -309,16 +328,17 @@
                             <div class="clearfix visible-md"></div>
                             <div class="clearfix visible-lg"></div>
 
-                            <div class="visible-xs"><hr class="project-separator" /></div>
+                            <div><hr class="project-separator visible-xs" /></div>
 
-                            <article class="project-li">
+                            <article>
                                 <div class="col-sm-5 col-md-2 project-img-wrapper">
                                     <img src="./img/epsos.jpg" class="img-circle project-img">
                                 </div>
                                 <div class="col-sm-7 col-md-4 project-description">
-                                    <h3>OpenNCP<small> - epSOS Components.</small></h3>
+                                    <h3>OpenNCP<small> - Cross-border eHealth Services</small></h3>
                                     <small>02/2012 - 11/2012</small>
-                                    <p>The OpenNCP is thought of as a conceptual collection of the common components specified by the epSOS project, with the aim of constructing a National Contact Point application. [<a href="http://www.epsos.eu/">epSOS</a>] [<a href="https://openncp.atlassian.net/wiki/display/ncp/OpenNCP+Community+Home">OpenNCP</a>] [<a href="http://code.google.com/p/epsos-common-components/">code</a>]</p>
+                                    <p>epSOS concentrates on developing a practical eHealth framework and ICT infrastructure that enables secure access to patient health information among different European eHealth systems. The OpenNCP is a conceptual collection of the common components specified by the epSOS project, with the aim of constructing a National Contact Point application.</p>
+                                    <p>[<a href="http://www.epsos.eu/">epSOS</a>] [<a href="https://openncp.atlassian.net/wiki/display/ncp/OpenNCP+Community+Home">OpenNCP</a>] [<a href="http://code.google.com/p/epsos-common-components/">code</a>]</p>
                                     <hr/>
                                     <p><small>Java + axis2 | SOAP  + WS-* | XML | SAML</small></p>
                                     <a class="btn btn-primary" href="#">
@@ -330,13 +350,14 @@
 
                             <div class="clearfix visible-sm"></div>
 
-                            <div class="visible-xs"><hr class="project-separator" /></div>
+                            <div><hr class="project-separator visible-xs" /></div>
 
-                            <article class="project-ri">
+                            <article>
                                 <div class="col-sm-7 col-md-4 project-description">
                                     <h3>Icarous<small> - Parking Booking System.</small></h3>
                                     <small>01/2012 - 4/2012</small>
-                                    <p>ICAROUS offers the easiest way to book between all parking service options to ensure the availability and best price.</p>
+                                    <p>ICAROUS offers the easiest way to book between all parking service options to ensure the availability and best price, It's a centralized reservation system providing access to parking options through aa large network of members. It shows a comparation of pricies, reviews and evaluations of all parkings. Allows the client to search, compare and make reservations.</p>
+                                    <p>[<a href="https://www.youtube.com/user/icarousparkings">&nbsp;videos</a>]</p>
                                     <hr/>
                                     <p><small>Java + Hybernate + Struts2</small></p>
                                     <a class="btn btn-primary" href="https://www.icarous.com/portal/home/index.action">
@@ -353,9 +374,9 @@
                             <div class="clearfix visible-md"></div>
                             <div class="clearfix visible-lg"></div>
 
-                            <div class="visible-xs"><hr class="project-separator" /></div>
+                            <div><hr class="project-separator visible-xs" /></div>
 
-                            <article class="project-li">
+                            <article>
                                 <div class="col-sm-5 col-md-2 project-img-wrapper">
                                     <img src="./img/iuz.jpg" class="img-circle project-img">
                                 </div>
@@ -363,8 +384,8 @@
                                 <div class="col-sm-7 col-md-4 project-description">
                                     <h3>inSISO<small> - Bridging Oral Care.</small></h3>
                                     <small>08/2011 - 12/2011</small>
-                                    <p>inSISO was a research and development project that aimed to solve an integration problem between private practice software solutions and the national information system: Oral Care Information System (SISO).</p>
-                                    <p>SISO aimed to develop a national wide instrument to promote oral health care - in the scope of the National Program for the Promotion of Oral Health (Portuguese Ministry of Health). [<a href="https://www.saudeoral.min-saude.pt/pnpso/public/index.jsp/">National Program</a>] [<a href="https://saudeoral.min-saude.pt/siso/welcome/welcomeUser.action">SISO</a>]</p>
+                                    <p>inSISO was a R&amp;D project that aimed to solve an integration problem between private practice software solutions and the national Oral Care Information System (SISO). SISO aimed to develop a national wide instrument to promote oral health care - in the scope of the National Program for the Promotion of Oral Health (Portuguese Ministry of Health).</p>
+                                    <p>[<a href="https://www.saudeoral.min-saude.pt/pnpso/public/index.jsp/">National_Program</a>] [<a href="https://saudeoral.min-saude.pt/siso/welcome/welcomeUser.action">SISO</a>]</p>
                                     <hr/>
                                     <p><small>Java + metro | SOAP  + WS-*</small></p>
                                 </div>
@@ -372,13 +393,16 @@
 
                             <div class="clearfix visible-sm"></div>
 
-                            <div class="visible-xs"><hr class="project-separator" /></div>
+                            <div><hr class="project-separator visible-xs" /></div>
 
-                            <article class="project-ri">
+                            <article>
                                 <div class="col-sm-7 col-md-4 project-description">
                                     <h3>RTS<small> - Telematic Health Network.</small></h3>
                                     <small>09/2010 - 07/2011</small>
-                                    <p>A telematic health network, in the Aveiro region (RTS Network), that aims to improve clinical communication and interaction between healthcare institutions. [<a href="http://www.youtube.com/watch?v=LQALb5RCM4c">&nbsp;video</a>]</p>
+                                    <p>The RTS platform aims to offer a regional eHhealth system in the region of Aveiro, allowing the partner institutions to exchange clinical data. Unlike point-to-point message
+or documents exchanging protocols, RTS builds on an architectural approach, exposing a coherent shared information model accessible through
+a Portal system.</p>
+                                    <p>[<a href="http://www.youtube.com/watch?v=LQALb5RCM4c">&nbsp;video</a>]</p>
                                     <hr/>
                                     <p><small>Java + Hybernate +  Struts2 + JSP | SOAP + WS-* | Postgres</small></p>
                                     <a class="btn btn-primary" href="http://www.rtsaude.pt/paginas_frontoffice_ingles/home_english.php">
@@ -386,7 +410,7 @@
                                         <i class="fa fa-chevron-right"></i>
                                 </a>
                                 </div>
-                                <div class="col-sm-5 col-md-2 project-img-wrapper">
+                                <div class="col-sm-5 col-md-2 project-img-wrapper no-border">
                                     <img src="http://www.rtsaude.pt/imagens_frontoffice/logo.png" class="img-circle project-img">
                                 </div>
                             </article>
@@ -394,20 +418,20 @@
 
                 </div>
             </section><!-- /featuresSection -->
-
-
             <!-- ============================================================================================ SKILLS -->
+            <a class="anchor" id="skills"></a>
             <section id="skills-section" class="page-section">
+                
                 <div class="container">
 
                     <header class="row">
-                        <div class="text-center">
+                        <div class="col-xs-12 text-center">
                             <h1>Skills</h1>
                         </div>
                     </header>
 
                     <section class="row">
-                        <header class="col-sm-12">
+                        <header class="col-xs-12">
                             <h2>Skills in perspective</h2>
                         </header>
 
@@ -446,6 +470,19 @@
                                 </ul>
                         </article>
                     </section>
+
+                    <section class="row">
+                        <article class="col-xs-12">
+                                <h2>Independent Coursework</h2>
+                            <ul id="coursework">
+                                <li><a href="https://www.coursera.org/course/progfun#!" target="_blank">Functional Programming Principles in Scala</a></li>
+                                <li>English course - C1 level</li>
+                                <li>Curso de Formação Pedagógica Inicial de Formadores - CCP</li>
+                                <li>Gender equality</li>
+                            </ul>
+                        </article>
+                    </section>
+                </div>
             </section><!-- skillsSection -->
 
 
@@ -497,8 +534,6 @@
 
                                 <dd>SOAP</dd>
                                 <dd>REST</dd>
-                                <dd>XML</dd>
-                                <dd>Json</dd>
                                 <dd>HAL</dd>
                                 <dd>HL7</dd>
                                 <dd>IHE</dd>
@@ -512,7 +547,7 @@
                                 <dd>HTML5</dd>
                                 <dd>CSS3</dd>
                                 <dd>Bootstrap 3</dd>
-                                <dd>Javascript</dd>
+                                <dd>Font Awesome 4</dd>
                                 <dd>Ember.js</dd>
                             </dl>
                         </article>
@@ -536,12 +571,11 @@
                                 <dd>Certs</dd>
                                 <dd>PKI</dd>
                                 <dd>SAML</dd>
+                                <dd>Shibboleth</dd>
                                 <dd>OAuth 2.0</dd>
                             </dl>
                         </article>
-                    </div>
-
-                </section>
+                    </section>
                 </div>
             </section>
 
@@ -557,30 +591,26 @@
                     </header>
 
                 <div class="row text-center">
-                    <article class="col-sm-3"></article>
-
-                    <article class="col-sm-2 contact">
+                    <article class="col-md-offset-3 col-md-2 col-xs-4 contact">
                         <a href="mailto:mail@lpinto.eu">
                             <i class="fa fa-envelope"></i>
                             <p>mail@lpinto.eu</p>
                         </a>
                     </article>
 
-                    <article class="col-sm-2 contact">
+                    <article class="col-md-2 col-xs-4 contact">
                         <a href="tel:+351916395020">
                             <i class="fa fa-phone"></i>
                             <p>+351 916395020</p>
                         </a>
                     </article>
 
-                    <article class="col-sm-2 contact">
+                    <article class="col-md-2 col-xs-4 contact">
                         <a href="skype:lpinto.eu">
                             <i class="fa fa-skype"></i>
                             <p>lpinto.eu</p>
                         </a>
                     </article>
-
-                    <article class="col-sm-3"></article>
                 </div>
 
                 <div id="extLinks" class="row text-center">
@@ -615,7 +645,7 @@
 
         <!-- FOOTER
         ============================================================================================================ -->
-        <footer id="footer" class="navbar navbar-inverse">
+        <footer id="footer" class="navbar navbar-default">
             <div class="container">
                 <p class="pull-right navbar-text">
                     <a href="#">Back to top</a></p>
@@ -630,6 +660,5 @@
         ============================================================================================================ -->
         <!-- Placed at the end of the document so the pages load faster -->
         <script src="js/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
     </body>
 </html>

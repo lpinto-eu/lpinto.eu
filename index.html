@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!--================================================================================================================
+    Hey stranger! Be my guest and check up on my HTML and CSS.
+    Let me tell you, I am very meticulous about writing clean, semantic code.
+    =================================================================================================================-->
+
+    <head>
+        <title>LP | Portfolio</title>
+
+        <!-- Basic Page Needs
+        ==================================================================== -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="favicon.png">
+
+        <meta name="author" content="Luis Pinto">
+        <meta name="keywords" content="Luis Pinto, personal webpage, portfolio, software developer, web developer">
+        <meta name="description" content="Hello, my name is Luis Pinto and this is my personal website.">
+
+        <!-- CSS
+        ==================================================================== -->
+        <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lobster'>
+        <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Days+One'>
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <!-- HEADER
+        ============================================================================================================ -->
+        <header id="header" class="navbar navbar-inverse navbar-fixed-top">
+            <nav class="container">
+                <header class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Luís Pinto</a>
+                </header>
+                <nav class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a class="nav-icon text-center" href="#">
+                                <i class="fa fa-home fa-fw"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-icon text-center" href="#columms-section">
+                                <i class="fa fa-compass fa-fw"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-icon text-center" href="#features-section">
+                                <i class="fa fa-code fa-fw"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-icon text-center" href="#contact-me" data-toggle="modal">
+                                <i class="fa fa-comment-o fa-fw"></i>
+                            </a>
+                        </li>
+
+                        <li class="dropdown">
+                            <a class="nav-icon dropdown-toggle text-center" href="#" data-toggle="dropdown">
+                                <i class="fa fa-info fa-fw"></i><b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-header">About me</li>
+                                <li>
+                                    <p>My name is <strong>Luís Pinto</strong> and I am a <strong>Softwere Engineer</strong>.
+                                        <br/>
+                                        Currently I live in Aveiro, Potugal; I went here for university and I'm still here.
+                                    </p>
+                                </li>
+                                <li class="divider"></li>
+                                <li class="dropdown-header">About the site</li>
+                                <li>
+                                    <p>Welcome at my personal webpage.
+                                        <br/>
+                                        I belive that a traditinoal CV is not the best way to present someone skills.
+                                        That is why I created this website, it allows me to present skills,
+                                        portfolio and personal data, in a new and diferent way.</p>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </nav>
+        </header><!-- header -->
+
+
+
+        <!-- MAIN
+        ============================================================================================================ -->
+        <div id="main">
+
+
+            <!-- =========================================================================================== WELCOME -->
+            <section id="welcome-section">
+                <div class="jumbotron">
+                    <div class="container text-center">
+                        <h1>Luís Pinto</h1>
+                        <h2>Software Engineer</h2>
+                        <p class="lead">This is my personal website.</p>
+                        <a class="btn btn-primary" href=#contact-me data-toggle="modal">
+                            Say hi! <i class="fa fa-comment fa-fw"></i>
+                        </a>
+                        <a class="btn btn-primary" href="#">
+                            CV <i class="fa fa-cloud-download fa-fw"></i>
+                        </a>
+                    </div>
+                </div>
+            </section><!-- welcomeSection -->
+
+            <!-- =========================================================================================== COLUMNS -->
+            <section id="columms-section" class="page-section">
+                <div class="container">
+                    <header class="row">
+                        <div class="col12">
+                            <h1>Who I am, where I came from, where I am going</h1>
+                        </div>
+                    </header>
+
+                    <div class="row">
+                        <article class="col-lg-4">
+                            <h2>Background</h2>
+                            <p>Since I join the <a href="http://www.ua.pt/deti/PageCourse.aspx?id=23&b=1&lg=en">Computers and Telematics Engeneering</a> course at <a href="http://www.ua.pt/">Aveiro University</a>, I felt in love with programming and software buildng.</p>
+                            <p>For my Master's Degree thesis, I managed to work in a industry like enviroment. I joined a Health IS team developing a network connecting Hospitals - <a href="http://www.rtsaude.pt/">RTS</a>. My work included the creation of a set of SOAP Webservices, security configurations and semantic services for translation and transcoding.</p>
+                            <p>My Master Degree Theses proved to be a job well done, and because of that I was hired to do it all over again. <a href="http://www.iuz.pt">iUZ Technologies</a> had a Health Business Management Sistem that needed to be exposed throw a Webservices API.</p>
+                        </article>
+
+                        <article class="col-lg-4">
+                            <h2>Nowadays</h2>
+                            <p>Currently I am working for <a href="http://www.ptinovacao.pt/">PT Inovação</a> as an outsourcing developer.</p>
+                            <p>I am a server side developer, currently working with: Java, REST, Json, MongoDB. A dedicated Software engineer, highly committed to develop robust and maintainable solutions. Solid knowhow based on a strong academical background enhanced by a professional experience fulfilled with acknowledged good work - exciting challenges and lessons learned. Most of all, I'm always engaged to learn more on how to create even better software.</p>
+
+                            <p>Triying to follow with the programing trend, I realised that frontend development and frontend technologies, are becoming a huge deal.
+                                In order to expand my technical knowladge, I started this summer learning some frontend specific languages and framworks.</p>
+                        </article>
+
+                        <article class="col-lg-4">
+                            <h2>Future</h2>
+                            <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+                                <br/> Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                            <p>JENKINS IT</p>
+                        </article>
+                    </div>
+                </div>
+            </section><!-- colummsSection -->
+
+
+
+            <!-- ========================================================================================= PORTFOLIO -->
+            <section id="features-section" class="page-section">
+                <div class="container">
+                    <header class="row">
+                        <div class="col12">
+                            <h1>Projects I worked</h1>
+                        </div>
+                    </header>
+
+                    <article class="row">
+                        <div class="col-sm-7">
+                            <h2>Segura<small> - controlo de acessos.</small></h2>
+                            <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                        </div>
+                        <div class="col-sm-5">
+                            <img src="http://www.ptinovacao.pt/images/logo.png">
+                        </div>
+                    </article>
+
+                    <hr>
+                    <article class="row">
+                        <div class="col-sm-5">
+                            <img src="http://www.epsos.eu/fileadmin/img/layout/top_left_01.gif">
+                        </div>
+                        <div class="col-sm-7">
+                            <h2>OpenNCP<small> - epSOS Common Components.</small></h2>
+                            <p>The OpenNCP is thought of as a conceptual collection of the common components specified by the epSOS project, with the aim of constructing a National Contact Point application.</p>
+                        </div>
+                    </article>
+
+                    <hr>
+                    <article class="row featurette">
+                        <div class="col-sm-7">
+                            <h2>Icarous<small> - Parking Booking System.</small></h2>
+                            <p>ICAROUS offers the easiest way to book between all parking service options to ensure the availability and best price.</p>
+                            <p>Java | Hybernate | Struts2</p>
+                        </div>
+                        <div class="col-sm-5">
+                            <img src="https://www.icarous.com/portal/css/images/logo-big.png">
+                        </div>
+                    </article>
+
+                    <hr>
+                    <article class="row featurette">
+                        <div class="col-sm-5">
+                            <img src="http://iuz.pt/images/layout/image/iUZ_logo.jpg">
+                        </div>
+
+                        <div class="col-sm-7">
+                            <h2>inSISO<small> - Bridging Oral Care.</small></h2>
+                            <p>inSISO was a research and development project that aimed to solve an integration problem between private practice software solutions and the national information system SISO.</p>
+                            <p>Java | SOAP | Jax-WS | WS-Standards (WS-*)</p>
+                        </div>
+                    </article>
+
+                    <hr>
+                    <article class="row featurette">
+                        <div class="col-sm-7">
+                            <h2>RTS<small> - Telematic Health Network.</small></h2>
+                            <p>A telematic health network, in the Aveiro region (RTS Network), that aims to improve clinical communication and interaction between healthcare institutions.
+                                <a href="http://www.youtube.com/watch?v=LQALb5RCM4c">&nbsp;[video]</a></p>
+                            <p>Java | Postgres | Struts2 | JSP | SOAP | WS-*</p>
+                        </div>
+                        <div class="col-sm-5">
+                            <img src="http://www.rtsaude.pt/imagens_frontoffice/logo.png">
+                        </div>
+                    </article>
+                </div>
+            </section><!-- /featuresSection -->
+
+
+
+            <!-- ========================================================================================== CONTACTS -->
+            <section id="contacts-section"  class="page-section">
+                <div class="container">
+                    <header class="row">
+                        <div  class="col-sm-12">
+                            <h1>Contacts</h1>
+                        </div>
+                    </header>
+
+                    <div class="row text-center">
+                        <article class="col-sm-3"></article>
+
+                        <article class="col-sm-2">
+                            <a href="mailto:mail@lpinto.eu" class="contact">
+                                <i class="fa fa-envelope"></i>
+                                <p>mail@lpinto.eu</p>
+                            </a>
+                        </article>
+
+                        <article class="col-sm-2">
+                            <a href="tel:+351916395020" class="contact">
+                                <i class="fa fa-phone"></i>
+                                <div>+351 916395020</div>
+                            </a>
+                        </article>
+
+                        <article class="col-sm-2">
+                            <a href="skype:lpinto.eu" class="contact">
+                                <i class="fa fa-skype"></i>
+                                <div>lpinto.eu</div>
+                            </a>
+                        </article>
+
+                        <article class="col-sm-3"></article>
+                    </div>
+
+                    <div id="extLinks" class="row text-center">
+                        <a href="http://www.linkedin.com/in/luismiguelpinto"  target="_blank" class="extLink">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+
+                        <a href="http://stackoverflow.com/users/660990/luispinto"  target="_blank" class="extLink">
+                            <i class="fa fa-stack-overflow"></i>
+                        </a>
+
+                        <a href="http://facebook.com/llpinto"  target="_blank" class="extLink">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+
+                        <a href="https://github.com/lpinto-eu"  target="_blank" class="extLink">
+                            <i class="fa fa-github"></i>
+                        </a>
+
+                        <a href="https://twitter.com/lpinto_eu"  target="_blank" class="extLink">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <!-- ============================================================================================ SKILLS -->
+            <section id="skills-section" class="page-section">
+                <div class="container">
+                <header class="row">
+                    <div class="col-sm-12">
+                        <h1>Skills</h1>
+                    </div>
+                </header>
+
+                <div class="row">
+                    <article class="col-xs-6 col-sm-2 skills">
+                        <dl>
+                            <dt>Languages<br/><div class="border-gradient"></div></dt>
+
+                            <dd>Assembly</dd>
+                            <dd>C, C++</dd>
+                            <dd>Prolog</dd>
+                            <dd>Camel</dd>
+                            <dd>VHDL</dd>
+                            <dd>Java</dd>
+                            <dd>Scala</dd>
+                            <dd>SQL</dd>
+                        </dl>
+                    </article>
+
+                    <article  class="col-xs-6 col-sm-2 skills">
+                        <dl>
+                            <dt>Java<br/><div class="border-gradient"></div></dt>
+
+                            <dd>J2EE</dd>
+                            <dd>Maven</dd>
+                            <dd>MongoDB</dd>
+                            <dd>Hybernate</dd>
+                            <dd>Struts2</dd>
+                            <dd>Tomcat</dd>
+                            <dd>Glassfish</dd>
+                            <dd>Jboss</dd>
+                            <dd>Jenkins</dd>
+                        </dl>
+                    </article>
+
+                    <article  class="col-xs-6 col-sm-2 skills">
+                        <dl>
+                            <dt>Web<br/><div class="border-gradient"></div></dt>
+
+                            <dd>SOAP</dd>
+                            <dd>REST</dd>
+                            <dd>XML</dd>
+                            <dd>Json</dd>
+                            <dd>HAL</dd>
+                            <dd>HL7</dd>
+                            <dd>IHE</dd>
+                        </dl>
+                    </article>
+
+                    <article  class="col-xs-6 col-sm-2 skills">
+                        <dl>
+                            <dt>Front-end<br/><div class="border-gradient"></div></dt>
+
+                            <dd>HTML5</dd>
+                            <dd>CSS3</dd>
+                            <dd>Bootstrap 3</dd>
+                            <dd>Javascript</dd>
+                            <dd>Ember.js</dd>
+                        </dl>
+                    </article>
+
+                    <article  class="col-xs-6 col-sm-2 skills">
+                        <dl>
+                            <dt>Databases<br/><div class="border-gradient"></div></dt>
+
+                            <dd>PostgreSQL</dd>
+                            <dd>SQL Server</dd>
+                            <dd>MongoDB</dd>
+                        </dl>
+                    </article>
+
+                    <article  class="col-xs-6 col-sm-2 skills">
+                        <dl>
+                            <dt>Security<br/><div class="border-gradient"></div></dt>
+
+                            <dd>Certs</dd>
+                            <dd>PKI</dd>
+                            <dd>SAML</dd>
+                            <dd>OAuth 2.0</dd>
+                        </dl>
+                    </article>
+                </div>
+
+                <div class="row">
+                    <ul id="skills" class="col-12">
+                    <h3>Skills</h3>
+
+                        <p>Server-side</p>
+                         <div class="progress">
+                          <div class="progress-bar animated fadeInLeftBig" style="width: 100%;"></div>
+                        </div>
+                         <p>Print</p>
+                        <div class="progress">
+                          <div class="progress-bar animated fadeInLeftBig" style="width: 85%;"></div>
+                        </div>
+                         <p>Web</p>
+                        <div class="progress">
+                          <div class="progress-bar animated fadeInLeftBig" style="width: 75%;"></div>
+                        </div>
+                        <p>UX</p>
+                        <div class="progress">
+                          <div class="progress-bar animated fadeInLeftBig" style="width: 70%;"></div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+            </section><!-- skillsSection -->
+
+
+
+        </div><!-- MAIN -->
+
+
+
+        <!-- FOOTER
+        ============================================================================================================ -->
+        <footer id="footer" class="navbar navbar-inverse">
+            <div class="container">
+                <p class="pull-right navbar-text">
+                    <a href="#">Back to top</a></p>
+                <p class="navbar-text">
+                    &copy; 2013 Luís M. Pinto | personal website.</p>
+            </div>
+        </footer><!-- footer -->
+
+
+
+        <!-- MODAL
+        ============================================================================================================ -->
+        <div class="modal fade" id="contact-me" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <form class="form-horizontal">
+                        <div class="modal-header">
+                            <h4>Contact me</h4>
+                        </div>
+                        <div class="modal-body">
+
+                            <div class="form-group">
+                                <label for="contact-name" class="col-lg-2 control-label">Name</label>
+                                <div class="col-lg-10">
+                                    <input type="text" class="form-control" id="contact-name" placeholder="name">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-email" class="col-lg-2 control-label">Name</label>
+                                <div class="col-lg-10">
+                                    <input type="email" class="form-control" id="contact-email" placeholder="you@example.com">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-msg" class="col-lg-2 control-label">Message</label>
+                                <div class="col-lg-10">
+                                    <textarea class="form-control" id="msg" rows="4"></textarea>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <a data-dismiss="modal">Close</a>
+                            <button class="btn btn-primary" type="submit">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- SCRIPTS
+        ============================================================================================================ -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+    </body>
+</html>

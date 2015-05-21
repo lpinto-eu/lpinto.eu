@@ -1,0 +1,372 @@
+/*
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
+*/
+/******************************************************************************
+* Theme
+*
+*
+* c1l 02BD85
+* c1d 152f27
+*
+* c2 ED7263
+*
+* base 444
+******************************************************************************/
+
+
+/*******************************************************************************
+* HTMLS
+*******************************************************************************/
+body {
+    background-color: #EEE;
+    font-size: 14px;
+}
+
+h1 {
+    text-shadow: 2px 2px 2px #000;
+}
+
+h2 {
+    text-shadow: 1px 1px 1px #000;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 12px;
+    }
+    h1 {
+        font-size: 30px;
+        text-shadow: 1px 1px 1px #000;
+    }
+    h2 {
+        font-size: 26px;
+        text-shadow: none;
+    }
+}
+
+/*******************************************************************************
+* PAGE
+*******************************************************************************/
+
+/* HEADER
+******************************************************************************/
+.navbar-nav li a {
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 0;
+
+    font-size: 30px;
+}
+
+.navbar-brand {
+    padding: 0;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+#luis {
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        padding-left: 10%;
+    }
+}
+
+/* WELCOME
+*****************************************************************************/
+#welcomeSection {
+    margin: 0;
+    margin-top: 50px;
+    padding: 70px 0 100px 0;
+    background-color: /* c1l */ #1A99AA;
+    color: #FEF6E9;
+    font-size: 16px;
+}
+
+#welcomeSection .jumbotron {
+    background-color: /* c1l */ #1A99AA;
+}
+
+#welcomeSection h1 {
+    font-size: 100px;
+    margin-bottom: 5px;
+    text-shadow: none;
+    font-family: Arial, Vast Shadow;
+}
+
+/*
+@media (min-width: 1024px) {
+        #welcomeSection h1 {
+            text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    }
+}
+*/
+
+#welcomeSection p {
+    line-height: 1;
+}
+
+@media (max-width: 768px) {
+    #welcomeSection {
+        padding: 10px 0 20px 0;
+    }
+
+    #welcomeSection h1 {
+        font-size: 70px;
+    }
+}
+
+/* CONTACTS
+*****************************************************************************/
+#contactsSection {
+    padding: 30px 0 50px 0;
+    background-color: /* c13 */ #333;
+    color: #FEF6E9;
+    font-size: 16px;
+}
+
+#contactHeader {
+    margin: 0;
+    padding: 40px 0 20px 0;
+    font-size: 22px;
+    color: #FEF6E9;
+    color: #1A99AA;
+    color: #FFB339;
+    color: #df6c4f;
+}
+
+.contact {
+    display: inline-block;
+    padding: 0px 15px;
+    font-size: 12px;
+    color: /* c2 */ #FFB339;
+}
+
+.contact i {
+    font-size: 30px;
+    color: /* c2 */ #999;
+    /*text-shadow: 1px 1px 1px #000;*/
+}
+
+#extLinks {
+    padding: 0;
+    padding-top: 20px;
+}
+
+.extLink {
+    display: inline-block;
+    padding: 0px 10px;
+    color: /* c2 */ #aaa;
+    font-size: 22px;
+}
+
+.extLink i {
+    color: inherit;
+}
+
+.icon-stack {
+    font-size: 10px;
+    line-height: 1.5;
+}
+
+.icon-stack .icon-stack-base {
+    font-size: 22px;
+    line-height: 0.7;
+    font-weight: 100;
+}
+
+/* GREETINGS
+******************************************************************************/
+#greetingsSection {
+    padding-top: 60px;
+    padding-bottom: 100px;
+    /*background: url("http://www.roxannecook.com/img/bg-white-dots.png") #FEF6E9;*/
+    background-color: #eae5c7;
+    color: #333;
+}
+
+#greetingsSection .section-title {
+    color: /* c1l */ #1A99AA;
+}
+
+#greetingsSection h2 {
+    font-family: Lobster;
+    color: /* c1l */ #02BD85;
+    color: /* c1l */ #1A99AA;
+}
+
+@media (max-width: 768px) {
+    #greetingsSection {
+        padding: 20px 0;
+    }
+}
+
+/* COLUMNS
+******************************************************************************/
+#colummsSection {
+    padding-top: 60px;
+    padding-bottom: 100px;
+    background-color: /* bd */ #444;
+    background-color: /* bd */ #4A3F60;
+    background-color: /* bd */ #ECD06F;
+    background-color: /* bd */ #FFB339;
+    background-color: /* bd */ #df6c4f;
+    background-color: /* bd */ #4A3F60;
+    background: rgba(93, 157, 141, 0.99);
+    color: #DDD;
+}
+
+#colummsSection .section-title {
+    color: /* c1l */ #FFB339;
+    color: /* c1l */ #eae5c7;
+}
+
+#colummsSection h2 {
+    font-family: Lobster;
+    color: /* c1l */ #eae5c7;
+}
+
+@media (max-width: 768px) {
+    #colummsSection {
+        padding: 20px 0;
+    }
+}
+
+/* CAROUSEL
+******************************************************************************/
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+    height: 500px;
+    background-color: #777;
+}
+
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 500px;
+}
+
+/* RESPONSIVE CSS */
+@media (min-width: 768px) {
+    /* Remove the edge padding needed for mobile */
+    .marketing {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    /* Navbar positioning foo */
+    .navbar-wrapper {
+        margin-top: 20px;
+    }
+    /* The navbar becomes detached from the top, so we round the corners */
+    .navbar-wrapper .navbar {
+        border-radius: 4px;
+    }
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 20px;
+        font-size: 21px;
+        line-height: 1.4;
+    }
+    .featurette-heading {
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 992px) {
+    .featurette-heading {
+        margin-top: 20px;
+    }
+}
+
+/* FEATURETTES
+******************************************************************************/
+#featuresSection {
+    padding-top: 60px;
+    padding-bottom: 100px;
+    background-color: #CCC;
+    background: #bea4bd;
+}
+
+.lead {
+    font-size: 14px;
+}
+
+#featuresSection .section-title {
+    color: rgba(93, 157, 141, 0.99);;
+}
+
+.featurette-divider {
+    margin: 40px 0;
+    /* Space out the Bootstrap <hr> more */
+    border-color: #rgba(93, 157, 141, 0.99);;
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+.featurette-heading {
+    font-size: 30px;
+}
+
+@media (min-width: 992px) {
+    .featurette-heading {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+}
+
+/* Skills
+******************************************************************************/
+#skillsSection {
+    padding: 20px 0;
+    background-color: #222;
+    color: #CCC;
+}
+
+#skillsSection dt {
+    font-size: 14px;
+    /*background-image: linear-gradient(to right, #0099AB, transparent);*/
+    border-bottom: 2px solid #FFB339;
+}
+
+#skillsSection dd {
+    padding: 7px 0 2px 7px;
+    border-bottom: 1px solid #333;
+    font-size: 12px;
+}
+
+/* Island
+******************************************************************************/
+#islandSection {
+background: url("http://www.pojeta.cz/_data/img/02-bg.jpg") 100% 100% repeat-x #285A73;
+z-index: 1001;
+}
+
+#islandSection .inside {
+background: url("http://www.pojeta.cz/_data/img/02-podklad.jpg") no-repeat transparent;
+}
+
+/* FOOTER
+******************************************************************************/
+#footer {
+    background-color: #111;
+    color: #DDD;
+}
+
+#footer footer {
+    padding-top: 10px;
+    font-size: 12px;
+}

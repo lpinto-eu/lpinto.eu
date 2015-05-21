@@ -1,16 +1,26 @@
-/*
-@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
-*/
+
 /******************************************************************************
-* Theme
+* Vintage Theme
 *
-*
-* c1l 02BD85
+* /* c1 * / #1ebcd6
+* /* c2 * / #ea5432
 * c1d 152f27
 *
-* c2 ED7263
+* Orange #FA6B55
+* Orange-Dark #b94a48
 *
-* base 444
+* Green #15C5A9
+* Green-Dark #468847
+*
+* Dark gray #292933
+* Gray #3C3C49
+*
+* Blue #428bca
+* Blue-Dark #3a87ad
+* Blue #099
+* Yellow #c09853
+*
+* Pink #c7254e
 ******************************************************************************/
 
 .modal-dialog-center {
@@ -18,186 +28,226 @@
 }
 
 /*******************************************************************************
-* HTMLS
+* HTML
 *******************************************************************************/
 body {
-    background-color: #EEE;
-    line-height: 1.43;
-    font-size: 14px;
-    font-family: "Consolas", "Liberation Mono", "Courier", monospace;
+    color: #CDCFD8;
+}
+
+h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 45px;
-    font-family: Days One;
-    text-shadow: 2px 2px 2px #666;
-    line-height: 2;
-    font-weight: 400;
+    /*font-family: freight-sans-pro;*/
+    /*font-size: 50px;
+    font-weight: 900;*/
 }
 
 h2 {
-    text-shadow: 1px 1px 1px #000;
-    font-family: Lobster;
-    font-size: 35px;
+    /*font-family: jubilat;*/
+    color: #292933;
+    /*font-size: 40px;
+    text-transform: uppercase;*/
 }
+
+h2, h3, h4, h5, h6 {
+}
+
+/*******************************************************************************
+* BOOTSTRAP
+*******************************************************************************/
+
+.jumbotron {
+    margin: 0;
+    /*padding: 80px 0;*/
+    background-color: #15C5A9;
+    color: #3C3C4F;
+}
+
+.jumbotron h1 {
+    color: #FFF;
+    /*font-size: 65px;
+    margin-top: 0;
+    font-family: freight-sans-pro;
+    text-shadow: none;
+    line-height: 1;*/
+
+}
+
+.jumbotron h2 {
+    color: #3C3C4F;
+    /*font-family: jubilat;
+    text-shadow: none;
+    line-height: 1.3em;
+    font-size: 32px;
+    margin-top: 20px;
+    margin-bottom: 10px;*/
+}
+
+.jumbotron p {
+    color: #3C3C4F;
+    /*font-weight: 500;
+    font-size: 21px;
+    margin-bottom: 20px;
+    font-family: jubilat;
+    letter-spacing: .01em;
+    margin: 0 0 10px;*/
+}
+
+.jumbotron .btn-primary {
+    background-color: #15C5A9;
+    color: #3C3C4F;
+    border-color: #3C3C4F;
+}
+.jumbotron .btn-primary:hover {
+    background-color: #468847;
+    color: #DDD;
+    border-color: #3C3C4F;
+}
+
+
 
 /*******************************************************************************
 * PAGE
 *******************************************************************************/
 
+#main {
+    margin-top: 60px;
+}
+
+#main hr {
+    margin: 50px 0;
+    border: 0;
+    border-top: 1px solid #292933;
+}
+
 .page-section {
-    padding: 60px 0;
+    padding: 50px 0;
 }
 
 /* HEADER
 ******************************************************************************/
-.navbar-nav li a {
-    margin: 0;
-    padding-top: 10px;
-    padding-bottom: 5px;
+
+#header {
+    /*height: 60px;*/
 }
+
+.navbar-inverse .navbar-brand {
+    font-size: 30px;
+}
+
 .navbar-nav li a i {
     font-size: 30px;
 }
 
-.navbar .container .navbar-brand {
-    padding: 0;
-    margin-top: 0;
-    position:absolute;
-    top : 30%;
-
-    font-size: 30px;
-}
-
-#luis {
-    color: #1A99AA;
-}
-
-
 /* WELCOME
 *****************************************************************************/
-#welcomeSection {
-    margin: 0;
-    margin-top: 70px;
-    padding: 30px 0;
-    background-color: /* c1l */ #1A99AA;
-
-    color: #FEF6E9;
-    font-size: 16px;
+#welcome-section {
 }
 
-#welcomeSection .jumbotron {
-    background-color: inherit;
+#welcome-section h1 {
 }
-
-#welcomeSection h1 {
-    font-size: 60px;
+#welcome-section h1 small {
 }
 
 
 /* COLUMNS
 ******************************************************************************/
-#colummsSection {
-    background: url("http://www.roxannecook.com/img/bg-white-dots.png") #FEF6E9;
-    color: #666;
+#columms-section {
+    background-color: #3C3C49;
 }
 
-#colummsSection h1,
-#colummsSection h2 {
-    color: #1A99AA;
+#columms-section h1,
+#columms-section h2 {
+    color: #FA6B55;
 }
 
 
 /* FEATURETTES
 ******************************************************************************/
-#featuresSection {
-    background-color: /* bd */ #444;
-    background-color: /* bd */ #ECD06F;
-    background-color: /* bd */ #FFB339;
-    background-color: /* bd */ #df6c4f;
-    background-color: /* bd */ #4A3F60;
-    background: rgba(93, 157, 141, 0.99);
-    color: #333;
+#features-section {
+    background-color: #3C3C49;
 }
 
-#featuresSection h1,
-#featuresSection h2 {
-    color: #eae5c7;
+#features-section h1,
+#features-section h2 {
+    color: #428bca;
 }
 
-.featurette-divider {
-    margin: 50px 0;
-    border-color: rgba(93, 157, 141, 0.99);
+#features-section h2 small {
+    font-size: 0.7em;
+    color: inherit;
 }
 
-/* Thin out the marketing headings */
+#features-section img {
+    height: 60px;
+}
+
+/* Thin out the marketing headings
 .featurette-heading {
     font-weight: 300;
     line-height: 1;
     letter-spacing: -0.5px;
     font-size: 40px;
 }
-
+*/
 
 /* CONTACTS
 *****************************************************************************/
-#contactsSection {
-    background-color: /* c13 */ #333;
-    color: #AAA;
+#contacts-section {
+    background-color: #3C3C49;
 }
 
-#contactsSection h1,
-#contactsSection h2 {
-    color: #df6c4f;
+#contacts-section h1,
+#contacts-section h2 {
+    color: #15C5A9;
 }
 
 .contact {
     padding: 0px 15px;
     display: inline-block;
-
     font-size: 12px;
-    color: #AAA;
+
+    color: inherit;
 }
 
 .contact i {
     font-size: 30px;
-    color: #1A99AA;
-    text-shadow: 2px 2px 2px #000;
+    color: inherit;
 }
 
 #extLinks {
-    padding: 0;
-    padding-top: 20px;
 }
 
 .extLink {
     display: inline-block;
     padding: 0px 20px;
-    color: #CCC;
     font-size: 20px;
+    color: inherit;
 }
 
 .extLink i {
-    color: inherit;
 }
 
 
 /* Skills
 ******************************************************************************/
-#skillsSection {
-    background-color: #222;
-    color: #CCC;
+#skills-section {
+    background-color: #3C3C49;
 }
 
-#skillsSection dt {
+#skills-section dt {
     font-size: 14px;
-    /*background-image: linear-gradient(to right, #0099AB, transparent);*/
-    border-bottom: 2px solid #0099AB;
 }
 
-#skillsSection dd {
+.border-gradient {
+    height: 2px;
+    background-image: linear-gradient(to right, #0099AB, transparent);
+}
+
+#skills-section dd {
     padding: 7px 0 2px 7px;
-    border-bottom: 1px solid #2a2a2a;
+    border-bottom: 1px dotted #292933;
     font-size: 12px;
 }
 
@@ -206,9 +256,5 @@ h2 {
 #footer {
     background-color: #111;
     color: #DDD;
-}
-
-#footer footer {
-    padding-top: 10px;
     font-size: 12px;
 }

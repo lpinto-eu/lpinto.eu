@@ -1,260 +1,118 @@
-
-/******************************************************************************
-* Vintage Theme
-*
-* /* c1 * / #1ebcd6
-* /* c2 * / #ea5432
-* c1d 152f27
-*
-* Orange #FA6B55
-* Orange-Dark #b94a48
-*
-* Green #15C5A9
-* Green-Dark #468847
-*
-* Dark gray #292933
-* Gray #3C3C49
-*
-* Blue #428bca
-* Blue-Dark #3a87ad
-* Blue #099
-* Yellow #c09853
-*
-* Pink #c7254e
-******************************************************************************/
-
-.modal-dialog-center {
-    margin-top: 25%;
-}
-
 /*******************************************************************************
-* HTML
-*******************************************************************************/
-body {
-    color: #CDCFD8;
-}
-
-h1, h2, h3, h4, h5, h6 {
-}
-
-h1 {
-    /*font-family: freight-sans-pro;*/
-    /*font-size: 50px;
-    font-weight: 900;*/
-}
-
-h2 {
-    /*font-family: jubilat;*/
-    color: #292933;
-    /*font-size: 40px;
-    text-transform: uppercase;*/
-}
-
-h2, h3, h4, h5, h6 {
-}
-
-/*******************************************************************************
-* BOOTSTRAP
-*******************************************************************************/
-
-.jumbotron {
-    margin: 0;
-    /*padding: 80px 0;*/
-    background-color: #15C5A9;
-    color: #3C3C4F;
-}
-
-.jumbotron h1 {
-    color: #FFF;
-    /*font-size: 65px;
-    margin-top: 0;
-    font-family: freight-sans-pro;
-    text-shadow: none;
-    line-height: 1;*/
-
-}
-
-.jumbotron h2 {
-    color: #3C3C4F;
-    /*font-family: jubilat;
-    text-shadow: none;
-    line-height: 1.3em;
-    font-size: 32px;
-    margin-top: 20px;
-    margin-bottom: 10px;*/
-}
-
-.jumbotron p {
-    color: #3C3C4F;
-    /*font-weight: 500;
-    font-size: 21px;
-    margin-bottom: 20px;
-    font-family: jubilat;
-    letter-spacing: .01em;
-    margin: 0 0 10px;*/
-}
-
-.jumbotron .btn-primary {
-    background-color: #15C5A9;
-    color: #3C3C4F;
-    border-color: #3C3C4F;
-}
-.jumbotron .btn-primary:hover {
-    background-color: #468847;
-    color: #DDD;
-    border-color: #3C3C4F;
-}
+ *
+ * lpinto.eu
+ *
+ * css control of the page content, not page theme definition.
+ *
+ ******************************************************************************/
 
 
 
 /*******************************************************************************
-* PAGE
-*******************************************************************************/
+ *
+ * CONTENT
+ *
+ ******************************************************************************/
 
-#main {
-    margin-top: 60px;
+/* Path
+ ******************************************************************************/
+.path-img {
+    width: 250px;
+    height: 250px;
 }
 
-#main hr {
-    margin: 50px 0;
-    border: 0;
-    border-top: 1px solid #292933;
-}
-
-.page-section {
-    padding: 50px 0;
-}
-
-/* HEADER
-******************************************************************************/
-
-#header {
-    /*height: 60px;*/
-}
-
-.navbar-inverse .navbar-brand {
-    font-size: 30px;
-}
-
-.navbar-nav li a i {
-    font-size: 30px;
-}
-
-/* WELCOME
-*****************************************************************************/
-#welcome-section {
-}
-
-#welcome-section h1 {
-}
-#welcome-section h1 small {
+/* Path
+ ******************************************************************************/
+.path-img-wrapper {
+    text-align: center;
 }
 
 
-/* COLUMNS
-******************************************************************************/
-#columms-section {
-    background-color: #3C3C49;
+/* Projects
+ ******************************************************************************/
+.project-img-wrapper {
+    text-align: center;
 }
 
-#columms-section h1,
-#columms-section h2 {
-    color: #FA6B55;
+#projects-timeline ul.intervals li {
+    width: 20%;
 }
 
-
-/* FEATURETTES
-******************************************************************************/
-#features-section {
-    background-color: #3C3C49;
-}
-
-#features-section h1,
-#features-section h2 {
-    color: #428bca;
-}
-
-#features-section h2 small {
-    font-size: 0.7em;
-    color: inherit;
-}
-
-#features-section img {
-    height: 60px;
-}
-
-/* Thin out the marketing headings
-.featurette-heading {
-    font-weight: 300;
-    line-height: 1;
-    letter-spacing: -0.5px;
-    font-size: 40px;
-}
-*/
-
-/* CONTACTS
-*****************************************************************************/
-#contacts-section {
-    background-color: #3C3C49;
-}
-
-#contacts-section h1,
-#contacts-section h2 {
-    color: #15C5A9;
-}
-
-.contact {
-    padding: 0px 15px;
-    display: inline-block;
-    font-size: 12px;
-
-    color: inherit;
-}
-
-.contact i {
-    font-size: 30px;
-    color: inherit;
-}
-
-#extLinks {
-}
-
-.extLink {
-    display: inline-block;
-    padding: 0px 20px;
-    font-size: 20px;
-    color: inherit;
-}
-
-.extLink i {
+#projects-section img {
+    width: 120px;
+    height: 120px;
+    float:none;
+    display:inline-block;
+    vertical-align:middle;
 }
 
 
 /* Skills
-******************************************************************************/
-#skills-section {
-    background-color: #3C3C49;
+ ******************************************************************************/
+#prog-skills-timeline ul.intervals li {
+    width: 10%;
 }
 
-#skills-section dt {
-    font-size: 14px;
+/* Footer
+ ******************************************************************************/
+#footer  {
+    margin-bottom: 0;
 }
 
-.border-gradient {
-    height: 2px;
-    background-image: linear-gradient(to right, #0099AB, transparent);
+/*******************************************************************************
+ *
+ * HTML
+ *
+ ******************************************************************************/
+body {
+    margin-top: 50px;
 }
 
-#skills-section dd {
-    padding: 7px 0 2px 7px;
-    border-bottom: 1px dotted #292933;
-    font-size: 12px;
+
+
+/*******************************************************************************
+ *
+ * COMPONENTS
+ *
+ ******************************************************************************/
+
+/* Timeline
+ ******************************************************************************/
+.lp-timeline ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-/* FOOTER
-******************************************************************************/
-#footer {
-    background-color: #111;
-    color: #DDD;
-    font-size: 12px;
+.lp-timeline .progress {
+    /* overrides bootstrap .progress */
+    margin: 0px;
+}
+
+.lp-timeline ul.events li {
+    /* no bootstrap */
+    float: none;
+    margin-bottom: 1px;
+    padding: 3px 0;
+    position: relative;
+    text-align: center;
+}
+
+.lp-timeline em {
+    color: #aaa;
+    font-weight: normal;
+    font-size: 0.9em;
+}
+
+.lp-timeline ul.intervals li {
+    border-right: 1px solid #ccc;
+    color: #444;
+    float: left;
+    margin: 0;
+    text-align: center;
+    width: 10%; /* The width depends on the number of intervals: 100% / n */
+}
+
+.lp-timeline ul.intervals li.first {
+    border-left: 1px solid #ccc;
 }
